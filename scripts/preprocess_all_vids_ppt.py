@@ -38,3 +38,7 @@ def main() -> None:
     for vid in vids:
         output_dir = generate_output_dir(vid)
         preprocess(in_path=vid, out_dir=output_dir)
+
+
+if __name__ == "__main__":
+    main()
