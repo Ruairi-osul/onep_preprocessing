@@ -1,0 +1,6 @@
+*.egg*
+.vscode
+*.pyc
+*__pycache__
+.mypy*
+processor.py
