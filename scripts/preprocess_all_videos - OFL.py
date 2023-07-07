@@ -8,7 +8,7 @@ from pprint import pprint
 
 
 def main():
-    p = Path(r"D:\data")
+    p = Path(r"D:\Shana ISX Reordered")
     files = find_files(p)
     pprint(files)
     for f in files:

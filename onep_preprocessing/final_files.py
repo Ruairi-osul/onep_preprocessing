@@ -2,8 +2,8 @@ from typing import List
 from pathlib import Path
 import pandas as pd
 
-INPATH = Path(r"D:\PFC_onep_export")
-OUTPUTDIR = Path(r"D:\pfc_data")
+INPATH = Path(r"E:\Context\PFC - Cohort 1\1p Export")
+OUTPUTDIR = Path(r"F:\Context\pfc_new")
 SESSIONS = [
     "day1-epm",
     "day2-morning",

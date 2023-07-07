@@ -109,7 +109,7 @@ class IDUpdater:
 def main():
     from pprint import pprint
 
-    root_dir = Path(r"D:\PFC_onep_export")
+    root_dir = Path(r"E:\Context\PFC - Cohort 1\1p Export")
     cohort = Cohort.PFC
     mouse_dirs = MouseDirFinder(root_dir, cohort).find()
     files: Dict[str, List[Path]] = {}

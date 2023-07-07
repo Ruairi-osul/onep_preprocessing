@@ -39,7 +39,7 @@ def is_problem_vid(video_file: Path) -> bool:
 
 
 def main():
-    p = Path(r"D:\PFC_Only")
+    p = Path(r"D:\Context Data\PFC Last\Raw Data")
     dirs = find_pfc_mouse_dirs(p)
     errors = []
     for mouse in dirs:
@@ -54,6 +54,7 @@ def main():
                 continue
             outpath = onep_dir.default_exports_dir
             outpath.mkdir(exist_ok=True)
+            print(str(raw_video_file))
             preprocess(raw_video_file, out_dir=outpath)
     pprint(errors)
 

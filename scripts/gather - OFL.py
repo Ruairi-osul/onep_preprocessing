@@ -6,8 +6,8 @@ from tkinter.filedialog import askdirectory
 from typing import Dict, List
 
 COHORT = Cohort.PFC
-ROOT_PATH = Path(r"D:\PFC_Only")
-OUTPUT_PATH = Path(r"D:\PFC_onep_export")
+ROOT_PATH = Path(r"D:\Context Data\PFC Last\Raw Data")
+OUTPUT_PATH = Path(r"D:\Context Data\PFC Last\Export")
 EXCLUDED_SESSIONS: Dict[str, List[str]] = {
     "B51618": ["day5-test2"],
     "B51619": [
@@ -20,6 +20,8 @@ EXCLUDED_SESSIONS: Dict[str, List[str]] = {
     "B58216": ["day3-morning"],
     "B58217": ["day3-morning", "day2-afternoon"],
     "B51631": ["day1-epm"],
+    "b78763": ["day2-afternoon"]
+    
 }
 
 
